@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "version": "1.0.0",
+  "id": "your-app-id",
+  "packageName": "com.yourcompany.webtab",
+  "developer": {
+    "name": "Chris Bouveret",
+    "websiteUrl": "https://simplifier.io",
+    "privacyUrl": "https://simplifier.io/privacy",
+    "termsOfUseUrl": "https://simplifier.io/privacy"
+  },
+  "name": {
+    "short": "Simplifier",
+    "full": "Simplifier for MS Teams"
+  },
+  "description": {
+    "short": "Makes Simplifier accessible in MS Teams",
+    "full": "This app makes Simplifier accessible in MS Teams inside a Teams tab"
+  },
+  "staticTabs": [
+    {
+      "entityId": "simplifierTeamsTab",
+      "name": "Simplifier",
+      "contentUrl": "https://demo.simplifier.io",
+      "websiteUrl": "https://demo.simplifier.io",
+      "scopes": ["personal"]
+    }
+  ],
+  "icons": {
+    "outline": "outline-icon.png",
+    "color": "color-icon.png"
+  },
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "yourwebsite.com"
+  ]
+}
