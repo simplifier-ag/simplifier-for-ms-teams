@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
   "manifestVersion": "1.13",
   "version": "1.0.0",
-  "id": "your-app-id",
-  "packageName": "com.yourcompany.webtab",
+  "id": "d138c4ba-892e-4d6f-b4a9-22e8b87dbb2e",
+  "packageName": "com.simplifierformsteams.webtab",
   "developer": {
     "name": "Chris Bouveret",
     "websiteUrl": "https://simplifier.io",
@@ -36,6 +36,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "yourwebsite.com"
+    "simplifier.io"
   ]
 }
