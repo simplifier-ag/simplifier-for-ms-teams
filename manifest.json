@@ -16,7 +16,7 @@
   },
   "description": {
     "short": "Makes Simplifier accessible in MS Teams",
-    "full": "This app makes Simplifier accessible in MS Teams inside a Teams tab"
+    "full": "This app makes Simplifier accessible in MS Teams inside a Teams tab."
   },
   "staticTabs": [
     {
